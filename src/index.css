@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary-navy: #172B4D;
+  --color-clean-white: #FFFFFF;
+  --color-neutral-bg: #F5F7FA;
+  --color-teal-accent: #168C8C;
+  --color-main-text: #293443;
+  --color-secondary-text: #657184;
+  --color-border: #E1E6ED;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--color-main-text);
+  background-color: var(--color-clean-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessible focus ring style */
+:focus-visible {
+  outline: 2px solid #168C8C;
+  outline-offset: 2px;
+}
